@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{990666EF-383D-4C68-847C-926EEEA6FB84}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Paygate.Utility</RootNamespace>
+    <AssemblyName>Paygate.Utility</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>C:\Users\halv\Desktop\Microsoft.Office.Interop.Excel.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Office.Tools.Excel.v9.0, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="NLog, Version=1.0.0.505, Culture=neutral, PublicKeyToken=5120e14c03d0593c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Media\Depedencies\NLog.dll</HintPath>
+    </Reference>
+    <Reference Include="PaygateRSALib">
+      <HintPath>..\Media\Depedencies\PaygateRSALib.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Extensions.Design" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Config.cs" />
+    <Compile Include="DateUtilities.cs" />
+    <Compile Include="NLogLogger.cs" />
+    <Compile Include="NumberUtilities.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Security\AuthenPage.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Security\AuthenticateUtility.cs" />
+    <Compile Include="Security\CmsCryptography.cs" />
+    <Compile Include="Security\RsaGenerator.cs" />
+    <Compile Include="Security\Security.cs" />
+    <Compile Include="Service\ConfigSMS.cs" />
+    <Compile Include="Service\ConfirmStatusTransfer.cs" />
+    <Compile Include="Service\EmailService.cs" />
+    <Compile Include="Service\ePostService.cs" />
+    <Compile Include="Service\GetCards.cs" />
+    <Compile Include="Service\GoodsPaygate.cs" />
+    <Compile Include="Service\GtelAccountRequest.cs" />
+    <Compile Include="Service\MailAPI.cs" />
+    <Compile Include="Service\MailGoService.cs" />
+    <Compile Include="Service\VDC1718Card.cs" />
+    <Compile Include="Service\VPGService.cs" />
+    <Compile Include="Service\VTCBillAPI.cs" />
+    <Compile Include="Service\WSeBankAPI.cs" />
+    <Compile Include="Service\WsPartnerCard.cs" />
+    <Compile Include="Utility\AjaxUtility.cs" />
+    <Compile Include="Utility\CachingUtility.cs" />
+    <Compile Include="Utility\Categories.cs" />
+    <Compile Include="Utility\CookieUtility.cs" />
+    <Compile Include="Utility\Telco.cs" />
+    <Compile Include="Utility\ExcelObject.cs" />
+    <Compile Include="Utility\Messenger.cs" />
+    <Compile Include="Utility\SessionUtility.cs" />
+    <Compile Include="Utility\Telecom.cs" />
+    <Compile Include="Utility\TelecomCard.cs" />
+    <Compile Include="Utility\XMLUtility.cs" />
+    <Compile Include="WapConfig.cs" />
+    <Compile Include="WebPost.cs" />
+    <Compile Include="XmlHelper.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

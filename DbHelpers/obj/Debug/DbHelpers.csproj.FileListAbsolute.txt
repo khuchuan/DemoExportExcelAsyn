@@ -1,0 +1,16 @@
+D:\CodeWorking\Paygate2012.Develop\Paygate2012.Develop\DbHelpers\bin\Debug\EBank.DBHelpers.dll
+D:\CodeWorking\Paygate2012.Develop\Paygate2012.Develop\DbHelpers\bin\Debug\EBank.DBHelpers.pdb
+D:\CodeWorking\Paygate2012.Develop\Paygate2012.Develop\DbHelpers\obj\Debug\EBank.DBHelpers.dll
+D:\CodeWorking\Paygate2012.Develop\Paygate2012.Develop\DbHelpers\obj\Debug\EBank.DBHelpers.pdb
+D:\CodeWorking\Paygate2012.Develop\Paygate2012.Develop\DbHelpers\obj\Debug\DbHelpers.csprojResolveAssemblyReference.cache
+D:\Working\DemoExportExcelAsyn\DbHelpers\bin\Debug\EBank.DBHelpers.dll
+D:\Working\DemoExportExcelAsyn\DbHelpers\bin\Debug\EBank.DBHelpers.pdb
+D:\Working\DemoExportExcelAsyn\DbHelpers\obj\Debug\DbHelpers.csproj.CoreCompileInputs.cache
+D:\Working\DemoExportExcelAsyn\DbHelpers\obj\Debug\EBank.DBHelpers.dll
+D:\Working\DemoExportExcelAsyn\DbHelpers\obj\Debug\EBank.DBHelpers.pdb
+D:\Working\DemoExportExcelAsyn\DbHelpers\obj\Debug\DbHelpers.csprojAssemblyReference.cache
+E:\CodeLearn\DemoExportExcelAsyn\DbHelpers\bin\Debug\EBank.DBHelpers.dll
+E:\CodeLearn\DemoExportExcelAsyn\DbHelpers\bin\Debug\EBank.DBHelpers.pdb
+E:\CodeLearn\DemoExportExcelAsyn\DbHelpers\obj\Debug\DbHelpers.csproj.CoreCompileInputs.cache
+E:\CodeLearn\DemoExportExcelAsyn\DbHelpers\obj\Debug\EBank.DBHelpers.dll
+E:\CodeLearn\DemoExportExcelAsyn\DbHelpers\obj\Debug\EBank.DBHelpers.pdb
